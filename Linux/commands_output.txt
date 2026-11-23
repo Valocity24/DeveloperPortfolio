@@ -1,0 +1,51 @@
+total 80
+drwxr-x--- 9 valocity valocity  4096 Nov 23 14:04 .
+drwxr-xr-x 3 root     root      4096 Nov  2 12:16 ..
+-rw------- 1 valocity valocity 22287 Nov 23 13:21 .bash_history
+-rw-r--r-- 1 valocity valocity   220 Nov  2 12:16 .bash_logout
+-rw-r--r-- 1 valocity valocity  3771 Nov  2 12:16 .bashrc
+drwxr-x--- 4 valocity valocity  4096 Nov  2 12:38 .cache
+drwxr-x--- 3 valocity valocity  4096 Nov  2 12:38 .config
+-rw-r--r-- 1 valocity valocity    93 Nov  2 12:42 .gitconfig
+drwxr-xr-x 2 valocity valocity  4096 Nov  2 12:38 .landscape
+-rw------- 1 valocity valocity    20 Nov 12 17:03 .lesshst
+drwx------ 3 valocity valocity  4096 Nov  2 13:52 .local
+-rw-r--r-- 1 valocity valocity     0 Nov 23 13:20 .motd_shown
+-rw-r--r-- 1 valocity valocity   807 Nov  2 12:16 .profile
+drwxr-xr-x 8 valocity valocity  4096 Nov 23 14:04 DeveloperPortfolio
+drwxr-xr-x 3 valocity valocity  4096 Nov  2 12:43 cse103_lab
+drwxr-xr-x 3 valocity valocity  4096 Nov 21 12:43 developer-portfolio
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1  24584 15540 ?        Ss   13:27   0:00 /sbin/init
+root           2  0.0  0.0   3820  2524 hvc0     Sl+  13:27   0:00 /init
+root           3  0.0  0.0   3680  2216 hvc0     S+   13:27   0:00 init-watcher
+root           8  0.0  0.0   3820  2292 hvc0     Sl+  13:27   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          48  0.0  0.3  58844 24296 ?        S<s  13:27   0:00 /usr/lib/systemd/systemd-journald
+systemd+      80  0.0  0.1  22432 14428 ?        Ss   13:27   0:00 /usr/lib/systemd/systemd-resolved
+root          87  0.0  0.1  34832 12024 ?        Ss   13:27   0:00 /usr/lib/systemd/systemd-udevd
+root         107  0.0  0.0   2888  2012 ?        Ss   13:27   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         108  0.0  0.0   4472  3128 ?        Ss   13:27   0:00 /usr/sbin/cron -f -P
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         238G  147G   92G  62% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            3.9G   60K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  3.4M  3.8G   1% /init
+none            3.9G  536K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   80K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   80K  3.9G   1% /mnt/wslg/doc
+C:\             238G  147G   92G  62% /mnt/c
+D:\             932G  113G  819G  13% /mnt/d
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           3.9G     0  3.9G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           780M   12K  780M   1% /run/user/1000
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       566Mi       6.9Gi       4.1Mi       315Mi       7.1Gi
+Swap:          2.0Gi          0B       2.0Gi
