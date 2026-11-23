@@ -1,0 +1,20 @@
+==========================================
+Student: Rudraksh Soni | Roll: 2601730047
+Date: Mon Nov 23 14:29:01 UTC 2026
+==========================================
+CPU Info:
+CPU(s):                                  12
+Model name:                              12th Gen Intel(R) Core(TM) i5-12450H
+NUMA node0 CPU(s):                       0-11
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       566Mi       6.9Gi       4.1Mi       329Mi       7.1Gi
+
+Top 3 Processes by CPU:
+    PID COMMAND         %CPU
+      1 systemd          0.0
+     87 systemd-udevd    0.0
+     48 systemd-journal  0.0
+==========================================
+Report generated successfully.
